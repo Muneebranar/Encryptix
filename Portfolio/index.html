@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">Muneeb Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Muneeb, a passionate web developer.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <img src="logo.JPG" alt="Background Decoration"/>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a web developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various frameworks.</p>
+    <p>
+        I am currently pursuing a Bachelor's degree in Computer Science at the University of Engineering And Technology Lahore. I have a strong foundation in programming languages and web development technologies, and I am eager to apply my skills in real-world projects.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Networking</li>
+      <li>.NET Developer</li>
+      <li>MongoDB and SQL (Structured Query Language)</li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <h2>My Resume</h2>
+    <p>You can download my resume from the link below:</p>
+    <a href="My Resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+      <input type="text" name="name" placeholder="Your Name" required style="padding: 0.8rem; width: 80%; max-width: 500px; border-radius: 5px; border: none;"/>
+      <input type="email" name="email" placeholder="Your Email" required style="padding: 0.8rem; width: 80%; max-width: 500px; border-radius: 5px; border: none;"/>
+      <textarea name="message" placeholder="Your Message" required style="padding: 0.8rem; width: 80%; max-width: 500px; border-radius: 5px; border: none; height: 150px;"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="project-gallery">
+    
+    <div class="project-card">
+      <img class="library" src="rms.png" alt="Task Manager App" />
+      <h3><a href="#" target="_blank">Project 1</a></h3>
+      <p>A web application that helps users manage their tasks efficiently.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="1317275.png" alt="E-commerce Website" />
+      <h3><a href="#" target="_blank">Project 2</a></h3>
+      <p>An e-commerce website built with React and Node.js.</p>
+    </div>
+
+    <div class="project-card">
+      <img class="coffee" src="Mainpagecoffee.jpg" alt="Coffee Paradise" />
+      <h3>
+        <a href="https://muneebranar.github.io/coffee-website/" target="_blank">Project 3 – 🍵 Coffee Paradise</a>
+      </h3>
+      <p>Built with HTML5, CSS3, and JavaScript. Showcases premium coffee experiences with smooth animations.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="mobile.PNG" alt="Portfolio Website" />
+      <h3><a href="#" target="_blank">Project 4</a></h3>
+      <p>A personal portfolio website showcasing my skills and previous projects.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+   <section class="foot">
+  <footer>
+    <div class="footer-content">
+      <h3>Thank You for Visiting!</h3>
+      <p>Let's create something extraordinary together. Your vision, our expertise.</p>
+      <div class="social-links" style="margin: 1rem 0;">
+        <a href="#" title="Email">📧</a>
+        <a href="#" title="Phone">📱</a>
+        <a href="#" title="Website">🌐</a>
+    <a href="https://www.linkedin.com/in/muhammad-muneeb-rana-562046290/" title="LinkedIn" target="_blank">
+   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20" />
+    </a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Muneeb's Portfolio. All rights reserved. Crafted with ❤️ and innovation.</p>
+      </div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>
